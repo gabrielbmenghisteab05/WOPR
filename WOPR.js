@@ -229,6 +229,10 @@ function setup() {
   textFont('VT323');
 }
 
+function preload() {
+  sound = loadSound('sounds/audio1.mp3');
+}
+
 // =========================================================
 // DRAW
 // [MINE] — The full screen-routing structure and all
