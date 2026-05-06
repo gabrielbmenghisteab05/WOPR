@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black; /* Matches your WOPR theme */
+  display: flex;
+  justify-content: center; /* Horizontal center */
+  align-items: center;     /* Vertical center */
+  height: 100vh;           /* Takes up full window height */
+  overflow: hidden;        /* Prevents scrollbars */
+}
+
+canvas {
+  display: block;          /* Removes tiny gap at the bottom */
+}
